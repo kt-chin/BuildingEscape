@@ -6,9 +6,9 @@
 	{
 		"MajorVersion": 4,
 		"MinorVersion": 20,
-		"PatchVersion": 0,
-		"Changelist": 4212847,
-		"CompatibleChangelist": 0,
+		"PatchVersion": 1,
+		"Changelist": 4233996,
+		"CompatibleChangelist": 4212847,
 		"IsLicenseeVersion": 0,
 		"IsPromotedBuild": 1,
 		"BranchName": "++UE4+Release-4.20",
@@ -16,11 +16,11 @@
 	},
 	"BuildProducts": [
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-BuildingEscape-789.dll",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-BuildingEscape-2355.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-BuildingEscape-789.pdb",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-BuildingEscape-2355.pdb",
 			"Type": "SymbolFile"
 		},
 		{

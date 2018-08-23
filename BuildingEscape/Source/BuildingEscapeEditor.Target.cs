@@ -8,7 +8,8 @@ public class BuildingEscapeEditorTarget : TargetRules
 	public BuildingEscapeEditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
-
-		ExtraModuleNames.AddRange( new string[] { "BuildingEscape" } );
+        bUseUnityBuild = false;
+        bUsePCHFiles = false;
+        ExtraModuleNames.Add("BuildingEscape");
 	}
 }

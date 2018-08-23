@@ -1,7 +1,9 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "PositionReport.h"
-
+#include "BuildingEscape.h"
+//UE4.18+ requires this include to work.
+#include "GameFramework/Actor.h"
 
 // Sets default values for this component's properties
 UPositionReport::UPositionReport()
@@ -19,7 +21,12 @@ void UPositionReport::BeginPlay()
 {
 	Super::BeginPlay();
 
-	UE_LOG(LogTemp, Warning, TEXT("Position Report Reporting For Duty on Chair!"));
+	//Gets name
+	FString ObjectName = GetOwner()->GetName();
+	//FVector TransformPosition = GetOwner()->GetTransform().ToString();
+	FString ObjectPos = GetOwner()->GetTransform().GetLocation().ToString();/*FString::SanitizeFloat(TransformPosition.X), FString::SanitizeFloat(TransformPosition.Y)*/
+	UE_LOG(LogTemp, Warning, TEXT("%s is at %s"), *ObjectName, *ObjectPos); // %s is where the string will be. * before the declared variable because
+																		    //UE_LOG expects TCHAR array and a * before the string converts it to this type.
 	// ...
 	
 }
