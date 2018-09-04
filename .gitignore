@@ -12,3 +12,4 @@ BuildingEscape/Content/StarterContent/
 # VS generated Files#
 #####################
 *.VC.db
+*.IPCH
