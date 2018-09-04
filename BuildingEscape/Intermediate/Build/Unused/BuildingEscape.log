@@ -2,9 +2,9 @@
   Compiling game modules for hot reload
   Building 3 actions with 12 processes...
     OpenDoor.cpp
-    UE4Editor-BuildingEscape-7859.lib
-       Creating library D:\GithubRepositories\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-7859.lib and object D:\GithubRepositories\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-7859.exp
-    UE4Editor-BuildingEscape-7859.dll
-       Creating library D:\GithubRepositories\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-7859.suppressed.lib and object D:\GithubRepositories\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-7859.suppressed.exp
+    UE4Editor-BuildingEscape-29.lib
+       Creating library D:\GithubRepositories\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-29.lib and object D:\GithubRepositories\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-29.exp
+    UE4Editor-BuildingEscape-29.dll
+       Creating library D:\GithubRepositories\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-29.suppressed.lib and object D:\GithubRepositories\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-29.suppressed.exp
   Deploying BuildingEscapeEditor Win64 Development...
-  Total build time: 3,97 seconds (Parallel executor: 3,32 seconds)
+  Total build time: 4,59 seconds (Parallel executor: 3,92 seconds)
