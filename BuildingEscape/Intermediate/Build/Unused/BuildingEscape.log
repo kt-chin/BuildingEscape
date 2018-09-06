@@ -1,10 +1,7 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for hot reloading BuildingEscapeEditor (modules to compile have changed)
   Compiling game modules for hot reload
-  Building 3 actions with 12 processes...
-    OpenDoor.cpp
-    UE4Editor-BuildingEscape-29.lib
-       Creating library D:\GithubRepositories\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-29.lib and object D:\GithubRepositories\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-29.exp
-    UE4Editor-BuildingEscape-29.dll
-       Creating library D:\GithubRepositories\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-29.suppressed.lib and object D:\GithubRepositories\BuildingEscape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\UE4Editor-BuildingEscape-29.suppressed.exp
+  Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Target is up to date
   Deploying BuildingEscapeEditor Win64 Development...
-  Total build time: 4,59 seconds (Parallel executor: 3,92 seconds)
+  Total build time: 3,32 seconds (NoActionsToExecute executor: 0,00 seconds)
